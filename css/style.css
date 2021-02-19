@@ -46,8 +46,97 @@ body {
     width: 30%;
 }
 
+.inline-block{
+    display: inline-block;
+}
+
+ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+}
+
+.btn{
+    max-width: 100px;
+    background-color:#fe7759;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn-border{
+    max-width: 100px;
+    background-color:transparent;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid #fe7759;
+}
+
 /* Header top */
-.header-top{
+.header-top {
     background-color:#f4f9fe ;
-    line-height:20px ;
+    border-bottom: 2px solid #32495b;
+}
+.header-top a{
+    color: #32495b;
+}
+.header-top nav ul li{
+    display: inline-block;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+/* Header top right */
+.header-top-right nav ul li:first-child{
+    border-right: 1px solid #32495b;
+    padding-right: 20px;
+}
+.header-top-right nav ul li:last-child{
+    padding-left: 20px;
+}
+
+/* header top left */
+.header-top .header-top-left nav ul li{
+    padding-left: 20px;
+}
+
+.header-top .header-top-left nav ul li .fas.fa-search{
+    color: #2fb0c6;
+}
+.header-top .header-top-left nav ul li a:not(i),
+.header-top .header-top-left nav ul li a:not(.btn-border){
+    color: #fff;
+    border: 1px solid transparent;
+}
+.header-top .header-top-left nav ul li a.btn-border{
+    color: #fe7759;
+}
+/* Effect hover header top left*/
+.header-top .header-top-left nav ul li a.btn-border:hover{
+    color: #fff;
+    background-color:#fe7759 ;
+}
+.header-top .header-top-left nav ul li a:not(.btn-border,.icon-search):hover{
+    background-color: transparent;
+    color: #fe7759;
+    border: 1px solid #fe7759;
+}
+.header-top .header-top-left nav ul li a i.fas.fa-search:hover{
+    color:#fe7759 ;
+}
+/* Effect hover header top right*/
+.header-top-right nav ul li a:hover{
+    color: #fe7759 ;
+}
+/* Header bottom */
+.header-bottom img,
+.header-bottom nav ul li{
+    display: inline-block;
+    margin: 30px 0;
+    vertical-align: middle;
+}
+
+/* Header bottom left */
+.header-bottom-right nav ul li,
+.header-bottom-right nav ul li a i{
+    padding-left: 20px;
 }
