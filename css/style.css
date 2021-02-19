@@ -7,3 +7,47 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* Utilitys */
+.clearfix{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align: right;
+}
+
+.w-50{
+    width: 50%;
+}
+.w-70{
+    width: 70%;
+}
+.w-30{
+    width: 30%;
+}
+
+/* Header top */
+.header-top{
+    background-color:#f4f9fe ;
+    line-height:20px ;
+}
