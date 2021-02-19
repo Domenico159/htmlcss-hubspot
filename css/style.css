@@ -55,6 +55,7 @@ ul li{
 }
 nav ul li a{
     text-decoration: none;
+    font-weight: 500;
 }
 
 .btn{
@@ -62,6 +63,7 @@ nav ul li a{
     background-color:#fe7759;
     padding: 10px;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .btn-border{
@@ -70,6 +72,16 @@ nav ul li a{
     padding: 10px;
     border-radius: 10px;
     border:1px solid #fe7759;
+    text-decoration: none;
+}
+.btn-big{
+    max-width: 100px;
+    background-color:#fe7759;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
 }
 
 /* Header top */
@@ -138,5 +150,45 @@ nav ul li a{
 /* Header bottom left */
 .header-bottom-right nav ul li,
 .header-bottom-right nav ul li a i{
-    padding-left: 20px;
+    padding-left: 15px;
+}
+.header-bottom-right nav ul li a{
+    color: #32495b;
+}
+.header-bottom-right nav ul li a:hover{
+    color:#fe7759;
+}
+/* Hero top */
+.hero-top{
+    height: 650px;
+    background-image: url(../img-hubspot/jumbotron.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.hero-top .container{
+    padding-top: 60px;
+    color: #33475b;
+}
+.hr-hero{
+    height: 100px;
+    background:#b0ebe4;
+    border-top:5px solid #32495b;
+    border-bottom:5px solid #32495b;
+}
+
+.hero-top .container .text-hero-top h1{
+    font-weight: 900;
+    font-size: 50px;
+}
+.hero-top .container .text-hero-top p{
+    padding:35px 0;
+    font-weight: 700;
+    color: #5b6877;
+}
+
+/* Hover effect btn  hero top*/
+.hero-top .container .text-hero-top .btn-big:hover{
+    background-color: transparent;
+    color: #fe7759;
+    border: 1px solid #fe7759;
 }
