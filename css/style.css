@@ -6,6 +6,8 @@
 }
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #33475b;
 }
 
 /* Utilitys */
@@ -94,6 +96,11 @@ p{
 
 .block{
     display: block;
+}
+
+.fas.fa-check-circle{
+    color: #fe7759;
+    padding-right: 10px;
 }
 /* Header top */
 .header-top {
@@ -224,8 +231,8 @@ p{
 }
 
 .content-center .main-crm{
-    height: 300px;
-    border-radius: 10px;
+    height: 350px;
+    border-radius: 5px;
     box-shadow: 1px 1px 10px   rgba(0, 0, 0, 0.5);
     overflow: hidden;
     margin-top:50px ;
@@ -250,7 +257,7 @@ p{
     width: 85%;
     position: absolute;
     left: 30%;
-    top: 25%;
+    top: 15%;
 }
 
 .main-crm .img-cube img,
@@ -259,11 +266,27 @@ p{
 }
 
 .bar-crm{
-    width: 570px;
+    width: 450px;
     height: 3px;
     background: grey;
     margin: 0 20px;
     border-radius: 20px;
     vertical-align: middle;
 
+}
+.text-crm ul li{
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.text-crm p {
+    padding: 5px;
+    font-size: 14px;
+    position: relative;
+    left: 10px;
+}
+
+
+.text-crm h2{
+   margin: 15px;
 }
