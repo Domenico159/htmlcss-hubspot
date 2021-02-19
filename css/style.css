@@ -180,9 +180,11 @@ p{
 /* Hero top */
 .hero-top{
     height: 650px;
+    background-color: #fff3ee;
     background-image: url(../img-hubspot/jumbotron.png);
-    background-size:cover;
+    background-size:1520px;
     background-repeat: no-repeat;
+    background-position-x: right;
 }
 .hero-top .container{
     padding-top: 60px;
