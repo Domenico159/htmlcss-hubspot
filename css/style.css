@@ -84,6 +84,14 @@ nav ul li a{
     font-weight: 600;
 }
 
+h2,
+h3,
+h4,
+p{
+    color: #33475b;
+    font-weight: 900;
+}
+
 /* Header top */
 .header-top {
     background-color:#f4f9fe ;
@@ -115,12 +123,13 @@ nav ul li a{
     color: #2fb0c6;
 }
 .header-top .header-top-left nav ul li a:not(i),
-.header-top .header-top-left nav ul li a:not(.btn-border){
+.header-top .header-top-left nav ul li a:last-child{
     color: #fff;
     border: 1px solid transparent;
 }
 .header-top .header-top-left nav ul li a.btn-border{
     color: #fe7759;
+    border: 1px solid #fe7759;
 }
 /* Effect hover header top left*/
 .header-top .header-top-left nav ul li a.btn-border:hover{
@@ -191,4 +200,29 @@ nav ul li a{
     background-color: transparent;
     color: #fe7759;
     border: 1px solid #fe7759;
+}
+
+/* Main content central */
+
+.content-center{
+    height: 1200px;
+    background-color: #f4f9fe;
+    padding-top: 70px;
+}
+.content-center .img-cube img{
+    width: 300px;
+}
+.content-center .img-cube h2{
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.content-center .img-cube p{
+    padding: 5px 0;
+}
+
+.crm .img-book img{
+    width: 100px;  
+}
+.crm .img-book {
+    background-color: grey;
 }
