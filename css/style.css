@@ -92,6 +92,9 @@ p{
     font-weight: 900;
 }
 
+.block{
+    display: block;
+}
 /* Header top */
 .header-top {
     background-color:#f4f9fe ;
@@ -220,9 +223,47 @@ p{
     padding: 5px 0;
 }
 
-.crm .img-book img{
-    width: 100px;  
+.content-center .main-crm{
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px   rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-top:50px ;
+    position: relative;
+    background: #fff;
 }
-.crm .img-book {
-    background-color: grey;
+
+.main-crm .img-cube{
+    height: 100%;
+    width: 15%;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+}
+
+.main-crm .img-cube img{
+    width: 120px;
+    padding-bottom: 40px;
+}
+.text-crm{
+    height: 100%;
+    width: 85%;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+
+.main-crm .img-cube img,
+.main-crm .img-cube a{
+    margin: 0 auto;
+}
+
+.bar-crm{
+    width: 570px;
+    height: 3px;
+    background: grey;
+    margin: 0 20px;
+    border-radius: 20px;
+    vertical-align: middle;
+
 }
