@@ -47,6 +47,12 @@ body {
 .w-30{
     width: 30%;
 }
+.w-40{
+    width: 40%;
+}
+.w-60{
+    width: 60%;
+}
 
 .inline-block{
     display: inline-block;
@@ -92,6 +98,9 @@ h4,
 p{
     color: #33475b;
     font-weight: 900;
+}
+.bold{
+    font-weight: bold;
 }
 
 .block{
@@ -304,6 +313,13 @@ p{
    margin: 15px;
 }
 
+/* Hover btn */
+.main-crm .img-cube .btn-big:hover{
+    background-color: transparent;
+    color: #fe7759;
+    border: 1px solid #fe7759;
+}
+
 /* Content col bottom center */
 .col{
     height: 630px;
@@ -352,11 +368,18 @@ p{
 .center-col  .third-col.col p{
     margin-bottom: 70px;
 }
+/* Hover btn col */
+.col .btn-big:hover{
+    background-color: transparent;
+    color: #fe7759;
+    border: 1px solid #fe7759;
+}
 
 /* Bottom section comunity */
 .comunity{
     height: 700px;
     background: linear-gradient(45deg, #04a4bc,#02bba7);
+    margin-bottom: 50px;
 }
 
 .comunity .comunity-text{
@@ -404,4 +427,48 @@ p{
 .date-comunity .text-small{
     color: #fff;
     font-weight: 400;
+}
+
+/* Section Partnership */
+.partner{
+    height: 750px;
+}
+.date-partner{
+    height: 200px;
+    margin-bottom:80px ;
+}
+
+.partner .logo-partner img{
+    max-width: 150px;
+    padding: 10px;
+    vertical-align: middle;
+}
+.partner .date-partner .n-partner{
+    margin: 0 0 0 100px;
+}
+.partner .date-partner .n-partner .number-partner{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.partner .date-partner h3{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.partner .img-partner img{
+    max-width: 320px;
+}
+.start-partner .text-partner h2{
+    margin-bottom: 30px;
+    font-size: 25px;
+}
+.start-partner .text-partner p{
+    margin:50px 0;
+}
+
+/* Hover btn */
+.start-partner .text-partner .btn-big:hover{
+    background-color: transparent;
+    color: #fe7759;
+    border: 1px solid #fe7759;
 }
