@@ -572,7 +572,7 @@ footer .fas.fa-comments{
 }
 
 footer .fas.fa-comments:hover{
-    box-shadow: 1px 1px  15px rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px  15px rgba(254,119, 89, 0.5);
     transition-duration: 0.2s;
     color:#fe7759  ;
 }
