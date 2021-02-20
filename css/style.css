@@ -555,7 +555,7 @@ footer .fas.fa-comments{
 .footer .footer-btn:hover{
     background-color:#fe7759 ;
     opacity: 0.6;
-    color:#32495b ;
+    color:#fff;
     transition-duration: 0.5s;
 }
 
