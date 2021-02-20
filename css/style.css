@@ -538,14 +538,14 @@ p{
 }
 
 footer .fas.fa-comments{
-   font-size: 40px;
+   font-size: 35px;
    display: inline-block;
    position: fixed;
    bottom: 30px;
    right: 30px;
    color: #fff;
    background-color:#425b76 ;
-   padding: 15px;
+   padding: 12px;
    border-radius:50%;
 }
 /* Hover effect */
