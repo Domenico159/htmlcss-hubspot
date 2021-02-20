@@ -560,6 +560,10 @@ footer .fas.fa-comments{
    padding: 12px;
    border-radius:50%;
 }
+footer div .text-copy-footer{
+    line-height: 20px;
+    font-weight: 500;
+}
 /* Hover effect */
 .footer a:hover{
     color: #fe7759;
