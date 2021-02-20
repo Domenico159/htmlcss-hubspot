@@ -102,6 +102,19 @@ p{
     color: #fe7759;
     padding-right: 10px;
 }
+
+.box{
+    box-shadow: 1px 1px 10px   rgba(0, 0, 0, 0.2);
+    background: #fff;
+    border-radius: 5px;
+}
+
+.small-bar{
+    width: 300px;
+    height: 3px;
+    border-radius: 30px;
+    background-color: grey;  
+}
 /* Header top */
 .header-top {
     background-color:#f4f9fe ;
@@ -217,7 +230,7 @@ p{
 /* Main content central */
 
 .content-center{
-    height: 1200px;
+    height: 1600px;
     background-color: #f4f9fe;
     padding-top: 70px;
 }
@@ -234,12 +247,10 @@ p{
 
 .content-center .main-crm{
     height: 350px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 10px   rgba(0, 0, 0, 0.5);
     overflow: hidden;
-    margin-top:50px ;
     position: relative;
-    background: #fff;
+    margin-bottom: 80px;
+    margin-top:50px ;
 }
 
 .main-crm .img-cube{
@@ -291,4 +302,59 @@ p{
 
 .text-crm h2{
    margin: 15px;
+}
+
+/* Content col bottom center */
+.col{
+    height: 630px;
+    width: 30%;
+    text-align: center;
+}
+
+.center-col .two-col.col{
+    margin: 0 58px;
+}
+
+.center-col  .col img{
+    max-width: 120px;
+}
+.center-col  .first-col.col img,
+.center-col  .third-col.col img{
+    width: 95px;
+}
+
+.center-col  .col img,
+.center-col  .col p,
+.center-col  .col h3,
+.center-col  .col .small-bar{
+    margin:20px ;
+}
+
+.center-col  .col ul li:last-child{
+    margin-bottom: 80px;
+}
+.center-col  .col ul{
+    text-align: left;
+    margin-left: 30px;
+}
+.center-col  .col p{
+    margin-bottom: 80px;
+    font-weight: 700;
+    color: #6f7d8b;
+    font-size: 14px;
+}
+.center-col  .col ul li:first-child{
+    margin-top: 30px;
+}
+.center-col  .col h3{
+    text-transform: uppercase;
+}
+.center-col  .third-col.col p{
+    margin-bottom: 70px;
+}
+
+/* Bottom section partnership */
+.partner{
+    height: 500px;
+    background: linear-gradient(45deg, #04a4bc,#02bba7);
 }
