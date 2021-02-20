@@ -170,13 +170,12 @@ p{
 .header-top .header-top-left nav ul li a.btn-border:hover{
     color: #fff;
     background-color:#fe7759 ;
+    opacity: 0.6;
     transition-duration: 0.5s;
 }
 .header-top .header-top-left nav ul li a:not(.btn-border,.icon-search):hover{
-    background-color: transparent;
-    color: #fe7759;
-    border: 1px solid #fe7759;
-    transition-duration: 0.5s;
+    opacity: 0.6;
+    transition-duration: 0.8s;
 }
 .header-top .header-top-left nav ul li a i.fas.fa-search:hover{
     color:#fe7759 ;
@@ -244,9 +243,7 @@ p{
 
 /* Hover effect btn  hero top*/
 .hero-top .container .text-hero-top .btn-big:hover{
-    background-color: transparent;
-    color: #fe7759;
-    border: 1px solid #fe7759;
+    opacity: 0.6;
     transition-duration: 0.5s;
 }
 
@@ -329,9 +326,7 @@ p{
 
 /* Hover btn */
 .main-crm .img-cube .btn-big:hover{
-    background-color: transparent;
-    color: #fe7759;
-    border: 1px solid #fe7759;
+    opacity: 0.6;
     transition-duration: 0.5s;
 }
 
@@ -385,9 +380,7 @@ p{
 }
 /* Hover btn col */
 .col .btn-big:hover{
-    background-color: transparent;
-    color: #fe7759;
-    border: 1px solid #fe7759;
+    opacity: 0.6;
     transition-duration: 0.5s;
 }
 
@@ -484,9 +477,7 @@ p{
 
 /* Hover btn */
 .start-partner .text-partner .btn-big:hover{
-    background-color: transparent;
-    color: #fe7759;
-    border: 2px solid #fe7759;
+    opacity: 0.6;
     transition-duration: 0.5s;
 }
 
@@ -551,6 +542,7 @@ p{
 }
 .footer .footer-btn:hover{
     background-color:#fe7759 ;
+    opacity: 0.6;
     color:#32495b ;
     transition-duration: 0.5s;
 }
