@@ -41,6 +41,9 @@ body {
 .w-50{
     width: 50%;
 }
+.w-25{
+    width: 25%;
+}
 .w-70{
     width: 70%;
 }
@@ -167,11 +170,13 @@ p{
 .header-top .header-top-left nav ul li a.btn-border:hover{
     color: #fff;
     background-color:#fe7759 ;
+    transition-duration: 0.5s;
 }
 .header-top .header-top-left nav ul li a:not(.btn-border,.icon-search):hover{
     background-color: transparent;
     color: #fe7759;
     border: 1px solid #fe7759;
+    transition-duration: 0.5s;
 }
 .header-top .header-top-left nav ul li a i.fas.fa-search:hover{
     color:#fe7759 ;
@@ -234,6 +239,7 @@ p{
     background-color: transparent;
     color: #fe7759;
     border: 1px solid #fe7759;
+    transition-duration: 0.5s;
 }
 
 /* Main content central */
@@ -318,6 +324,7 @@ p{
     background-color: transparent;
     color: #fe7759;
     border: 1px solid #fe7759;
+    transition-duration: 0.5s;
 }
 
 /* Content col bottom center */
@@ -373,6 +380,7 @@ p{
     background-color: transparent;
     color: #fe7759;
     border: 1px solid #fe7759;
+    transition-duration: 0.5s;
 }
 
 /* Bottom section comunity */
@@ -470,5 +478,67 @@ p{
 .start-partner .text-partner .btn-big:hover{
     background-color: transparent;
     color: #fe7759;
-    border: 1px solid #fe7759;
+    border: 2px solid #fe7759;
+    transition-duration: 0.5s;
+}
+
+/* Footer */
+.footer{
+    height: 600px;
+    background-color:#32495b ;
+    color: #fff;
+    padding-top: 40px;
+}
+.footer .footer-btn{
+    background-color:#dadee0 ;
+    padding: 15px;
+    border-radius: 10px;
+    color:#32495b  ;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer a{
+    color: #becad7;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.footer .four-footer-col .social{
+    margin-top: 20px;
+}
+
+.footer .four-footer-col .social a{
+    padding-right: 30px;
+}
+
+.footer .language{
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+.footer .language a{
+    padding-right: 20px;
+    font-weight: 500;
+}
+.footer .footer-bottom{
+    margin-top: 30px;
+}
+
+/* Bottom Footer */
+.footer .footer-bottom .footer-copy img{
+    max-width: 150px;
+}
+.footer .footer-bottom .stuff a{
+    padding-left: 20px;
+    font-weight: 700;
+}
+/* Hover effect */
+.footer a:hover{
+    color: #fe7759;
+}
+.footer .footer-btn:hover{
+    background-color:#fe7759 ;
+    color:#32495b ;
+    transition-duration: 0.5s;
 }
