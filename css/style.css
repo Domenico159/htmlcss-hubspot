@@ -507,15 +507,19 @@ p{
 .footer .four-footer-col .social{
     margin-top: 20px;
 }
+.footer .four-footer-col li:last-child{
+    margin-top: 20px;
+}
 
 .footer .four-footer-col .social a{
     padding-right: 30px;
+    margin-top: 20px;
 }
 
 .footer .language{
     border-bottom: 2px solid #fff;
     padding-bottom: 10px;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .footer .language a{
     padding-right: 20px;
