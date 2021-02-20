@@ -185,7 +185,14 @@ p{
 .header-top-right nav ul li a:hover{
     color: #fe7759 ;
 }
+
 /* Header bottom */
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
 .header-bottom img,
 .header-bottom nav ul li{
     display: inline-block;
@@ -205,6 +212,7 @@ p{
     color:#fe7759;
 }
 /* Hero top */
+
 .hero-top{
     height: 650px;
     background-color: #fff3ee;
