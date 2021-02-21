@@ -252,6 +252,9 @@ nav ul:hover .input{
     font-weight: 700;
     color: #5b6877;
 }
+.hero-top .container .text-hero-top p:last-child{
+    padding-top: 50px;
+}
 
 /* Hover effect btn  hero top*/
 .hero-top .container .text-hero-top .btn-big:hover{
