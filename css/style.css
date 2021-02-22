@@ -309,10 +309,11 @@ nav ul:hover .input{
 
   .all-box{
       margin:20px;
-      box-shadow: 1px 1px 20px  rgba(133, 132, 132,0.2);
+      background-color:transparent ;
+     
   }
   .all-box:hover{
-    box-shadow: 1px 1px 20px  rgba(133, 132, 132,0.4);
+    box-shadow: 1px 1px 10px  rgba(133, 132, 132,0.2);
     cursor: pointer;
   }
 
@@ -395,6 +396,54 @@ nav ul:hover .input{
 }
 
 .menù-resource:hover .dropbtn-resource {
+    color: #fe7759;
+}
+
+/* About menù */
+.dropbtn-about {
+    color: #32495b;
+    background-color:#f4f9fe ;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menù-about {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .about-container {
+    display: none;
+    position: absolute;
+    background-color: #f4f9fe;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 11;
+    overflow: hidden;
+    line-height: 30px;
+  }
+  
+  .about-container a {
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+  }
+  /* Button menù about hover----------------*/
+.about-container a:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.menù-about:hover .about-container {
+    display: block;
+}
+
+.menù-language:hover .dropbtn {
     color: #fe7759;
 }
 
