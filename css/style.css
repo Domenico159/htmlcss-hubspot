@@ -503,7 +503,7 @@ nav ul:hover .input{
       padding: 10px -0px;
   }
 
-  /* Button menù about hover----------------*/
+  /* Button menù partners hover----------------*/
 .partner-container a:hover {
     background-color: rgba(254,119, 89, 0.2);
     cursor: pointer;
@@ -516,7 +516,7 @@ nav ul:hover .input{
 .menù-lanpartner:hover .dropbtn-partner {
     color: #fe7759;
 }
-/* END Button menù about hover----------------*/
+/* END Button menù partners hover----------------*/
 .header-bottom-right nav ul li,
 .header-bottom-right nav ul li a i{
     padding-left: 15px;
