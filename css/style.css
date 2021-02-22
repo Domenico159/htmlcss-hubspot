@@ -191,6 +191,7 @@ p{
 .language-container a:hover {
     background-color: #fff;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .menù-language:hover .language-container {
@@ -443,26 +444,17 @@ nav ul:hover .input{
 .about-container a:hover {
     background-color: #fff;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .menù-about:hover .about-container {
     display: block;
 }
 
-.menù-language:hover .dropbtn {
+.menù-about:hover .dropbtn-about {
     color: #fe7759;
 }
 /* END Button menù about hover----------------*/
-.header-bottom-right nav ul li,
-.header-bottom-right nav ul li a i{
-    padding-left: 15px;
-}
-.header-bottom-right nav ul li a{
-    color: #32495b;
-}
-.header-bottom-right nav ul li a:hover{
-    color:#fe7759;
-}
 
 /* Prtner menù */
 .dropbtn-partner {
@@ -519,6 +511,16 @@ nav ul:hover .input{
     color: #fe7759;
 }
 /* END Button menù partners hover----------------*/
+.header-bottom-right nav ul li,
+.header-bottom-right nav ul li a i{
+    padding-left: 15px;
+}
+.header-bottom-right nav ul li a{
+    color: #32495b;
+}
+.header-bottom-right nav ul li a:hover{
+    color:#fe7759;
+}
 .header-bottom-right nav ul li,
 .header-bottom-right nav ul li a i{
     padding-left: 15px;
