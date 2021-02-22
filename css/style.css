@@ -405,7 +405,7 @@ nav ul:hover .input{
 /* About menù */
 .dropbtn-about {
     color: #32495b;
-    background-color:#f4f9fe ;
+    background-color:transparent ;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -448,6 +448,72 @@ nav ul:hover .input{
 }
 
 .menù-language:hover .dropbtn {
+    color: #fe7759;
+}
+/* END Button menù about hover----------------*/
+.header-bottom-right nav ul li,
+.header-bottom-right nav ul li a i{
+    padding-left: 15px;
+}
+.header-bottom-right nav ul li a{
+    color: #32495b;
+}
+.header-bottom-right nav ul li a:hover{
+    color:#fe7759;
+}
+
+/* Prtner menù */
+.dropbtn-partner {
+    color: #32495b;
+    background-color:transparent ;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menù-partner {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .partner-container {
+    display: none;
+    position: absolute;
+    background-color: #f4f9fe;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 11;
+    overflow: hidden;
+    line-height: 30px;
+  }
+  
+  .partner-container a {
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+  }
+
+  .partner-container img{
+      max-width:100px ;
+      padding: 10px -0px;
+  }
+
+  /* Button menù about hover----------------*/
+.partner-container a:hover {
+    background-color: rgba(254,119, 89, 0.2);
+    cursor: pointer;
+}
+
+.menù-partner:hover .partner-container {
+    display: block;
+}
+
+.menù-lanpartner:hover .dropbtn-partner {
     color: #fe7759;
 }
 /* END Button menù about hover----------------*/
