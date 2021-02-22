@@ -38,6 +38,10 @@ body {
     text-align: right;
 }
 
+.p20{
+    padding: 0 10px;
+}
+
 .w-50{
     width: 50%;
 }
@@ -140,7 +144,45 @@ p{
     margin: 30px 0;
     vertical-align: middle;
 }
-/* Header top right */
+/* Header top right ---------*/
+/* Button menù language ---------------------*/
+.dropbtn {
+    color: #32495b;
+    background-color:#f4f9fe ;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .menù-language {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .language-container {
+    display: none;
+    position: absolute;
+    background-color: #f4f9fe;
+    border-radius: 10px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 11;
+  }
+  
+  .language-container a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  /* Button menù language hover----------------*/
+.language-container a:hover {background-color: #fff;}
+
+.menù-language:hover .language-container {display: block;}
+
+.menù-language:hover .dropbtn {color: #fe7759;}
+  
+
 .header-top-right nav ul li:first-child{
     border-right: 1px solid #32495b;
     padding-right: 20px;
