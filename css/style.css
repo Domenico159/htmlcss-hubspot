@@ -432,6 +432,7 @@ nav ul:hover .input{
     text-decoration: none;
     display: block;
     font-weight: 400;
+    font-size: 12px;
   }
   /* Button menù about hover----------------*/
 .about-container a:hover {
