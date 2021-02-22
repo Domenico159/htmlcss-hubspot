@@ -198,7 +198,8 @@ p{
 .menù-language:hover .dropbtn {
     color: #fe7759;
 }
-  
+
+/* END Button menù language hover----------------*/
 
 .header-top-right nav ul li:first-child{
     border-right: 1px solid #32495b;
@@ -344,6 +345,7 @@ nav ul:hover .input{
   .menù-software:hover .dropbtn-software {
       color: #fe7759;
 }
+/* END Software menù hover*/
 
 /* Resource menù */
 .dropbtn-resource {
@@ -398,6 +400,7 @@ nav ul:hover .input{
 .menù-resource:hover .dropbtn-resource {
     color: #fe7759;
 }
+/* END Resource menù hover*/
 
 /* About menù */
 .dropbtn-about {
@@ -447,7 +450,7 @@ nav ul:hover .input{
 .menù-language:hover .dropbtn {
     color: #fe7759;
 }
-
+/* END Button menù about hover----------------*/
 .header-bottom-right nav ul li,
 .header-bottom-right nav ul li a i{
     padding-left: 15px;
