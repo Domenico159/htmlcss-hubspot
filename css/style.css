@@ -49,6 +49,9 @@ body {
 .p20{
     padding: 0 10px;
 }
+.m-10{
+    margin: 0 10px;
+}
 /* Width */
 .w-50{
     width: 50%;
@@ -67,6 +70,9 @@ body {
 }
 .w-60{
     width: 60%;
+}
+.w-100{
+    width: 100%;
 }
 /* List style */
 
@@ -105,6 +111,17 @@ nav ul li a{
 }
 .blue{
     color: blue;
+}
+
+.font-4{
+    font-weight: 400;
+}
+
+.font-5{
+    font-weight: 500;
+}
+.font-7{
+    font-weight: 700;
 }
 
 h2,
@@ -301,19 +318,55 @@ nav ul:hover .input{
   .software-container {
     display: none;
     position: absolute;
+    transform: translateX(-500px);
     background-color: #fff;
     border-radius:0 0 20px 20px;
-    min-width: 620px;
+    min-width: 1000px;
     min-height: 200px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 10;
     line-height: 15px;
     overflow: hidden;
   }
+  .box-left-text{
+      background-color:#f5f8fa ;
+      height: 400px;
+      padding: 40px;
+
+  }
+  .software-container .bar-bottom{
+      line-height: 100px;
+      font-size: 14px;
+  }
+  .software-container .bar-bottom a{
+      display: inline-block;
+      padding: 0;
+      margin: 0;
+  }
+  .software-container .bar-bottom .app{
+      font-size: 19px;
+  }
+
+  .software-container .bar-bottom a:hover{
+      background: transparent;
+  }
+
+
+  .software-container .small-box1-text-left{
+      margin-bottom: 50px;
+  }
+  .software-container .box-left-text a{
+      color: #0091ae;
+  }
+  .software-container .box-left-text a:hover{
+      background-color:transparent ;
+  }
+
 
   .all-box{
-      margin:20px;
+      margin: 28px;
       background-color:transparent ;
+      padding: 10px;
      
   }
   .all-box:hover{
