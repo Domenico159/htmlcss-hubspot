@@ -334,6 +334,9 @@ nav ul:hover .input{
       padding: 40px;
 
   }
+  .software-container i{
+      transform: translate(-12px ,2px);
+  }
   .software-container .bar-bottom{
       line-height: 100px;
       font-size: 14px;
@@ -347,21 +350,13 @@ nav ul:hover .input{
       font-size: 19px;
   }
 
-  .software-container .bar-bottom a:hover{
-      background: transparent;
-  }
-
-
   .software-container .small-box1-text-left{
       margin-bottom: 50px;
   }
   .software-container .box-left-text a{
       color: #0091ae;
   }
-  .software-container .box-left-text a:hover{
-      background-color:transparent ;
-  }
-
+  
 
   .all-box{
       margin: 28px;
@@ -401,6 +396,14 @@ nav ul:hover .input{
   .menù-software:hover .dropbtn-software {
       color: #fe7759;
 }
+.software-container .box-left-text a:hover{
+    background-color:transparent ;
+}
+.software-container .bar-bottom a:hover{
+    background: transparent;
+}
+
+
 /* END Software menù hover*/
 
 /* Resource menù */
