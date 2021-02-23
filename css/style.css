@@ -22,6 +22,9 @@ body {
     margin: 0 auto;
 }
 /* Position */
+.block{
+    display: block;
+}
 .inline-block{
     display: inline-block;
 }
@@ -83,7 +86,7 @@ nav ul li a{
     text-decoration: none;
     font-weight: 500;
 }
-
+/* Button */
 .btn{
     max-width: 100px;
     background-color:#fe7759;
@@ -109,6 +112,7 @@ nav ul li a{
     color: #fff;
     font-weight: 600;
 }
+/* Font-size & color */
 .blue{
     color: blue;
 }
@@ -133,10 +137,6 @@ p{
 }
 .bold{
     font-weight: bold;
-}
-
-.block{
-    display: block;
 }
 
 .fas.fa-check-circle{
